@@ -1,0 +1,142 @@
+[
+    {
+        "id": "bbuddy_frame",
+        "type": "GUN",
+        "name":
+        {
+            "str": "FOODCO bunker buddy", "str_pl": "FOODCO bunker buddies"
+        },
+        "description": "The FOODCO bunker buddy(TM) is billed as \"the perfect firearm for every occasion!\" and was apparently developed by FOODCO when the kitchenware company briefly branched out into the military sector and supplied a group of revolutionaries with weapons and materiel. The basic frame can \"easily\" be converted into any firearm configuration imaginable. What the cheery sales pitch fails to mention is that A - the frames can't be resused, B - it's almost completely incompatible with off-brand gun mods, and C - for liability reasons, most of the parts need to be taken from a separate firearm. A fully assembled bunker buddy typically features a large primary weapon set, a number of smaller, secondary weapon kits, and for some insane reason, an integrated pair of knitting needles.",
+        "weight": "800 g",
+        "volume": "500 ml",
+        "longest_side": "300 mm",
+        "price": 21500,
+        "price_postapoc": 100,
+        "to_hit": -1,
+        "bashing": 5,
+        "material":
+        [
+            "steel",
+            "plastic",
+            "wood"
+        ],
+        "skill": "gun",
+        "symbol": "(",
+        "color": "light_gray",
+        "range": 5,
+        "modes": [ [ "DEFAULT", "dry-fire", 1 ] ],
+        "valid_mod_locations":
+        [
+            [
+                "FOODCO base mount",
+                1
+            ],
+            [
+                "sights", 1
+            ],
+            [
+                "sling", 1
+            ]
+        ]
+    },
+    {
+    "id": "bbuddy_standard",
+    "type": "GUNMOD",
+    "name": { "str": "FOODCO bunker buddy standard-configuration frame" },
+    "description": "A set of brackets used to mount FOODCO-compatible weaponry onto a bunker buddy frame. This one features the standard set of mounts: a main mount, two component mounts, and an auxiliary mount.",
+    "weight": "350 g",
+    "volume": "225 ml",
+    "price": 70000,
+    "price_postapoc": 800,
+    "install_time": "10 m",
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "red",
+    "location": "FOODCO base mount",
+    "mod_targets": [ "gun" ],
+    "add_mod": [["main", 1], ["component", 2], ["auxiliary", 1]],
+    "flags": ["IRREMOVABLE"]
+  },
+  {
+    "id": "bbuddy_heavy",
+    "type": "GUNMOD",
+    "name": { "str": "FOODCO bunker buddy heavy-configuration frame" },
+    "description": "A set of brackets used to mount FOODCO-compatible weaponry onto a bunker buddy frame. This one features a heavy-weapons setup: a large mount, a component mount, and an auxiliary mount.",
+    "weight": "400 g",
+    "volume": "250 ml",
+    "price": 70000,
+    "price_postapoc": 800,
+    "install_time": "10 m",
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "red",
+    "location": "FOODCO base mount",
+    "mod_targets": [ "gun" ],
+    "add_mod": [["heavy", 1], ["component", 1], ["auxiliary", 1]],
+    "flags": ["IRREMOVABLE"]
+  },
+  {
+    "id": "bbuddy_pistol",
+    "type": "GUNMOD",
+    "name": { "str": "FOODCO bunker buddy pistol-configuration frame" },
+    "description": "A set of brackets used to mount FOODCO-compatible weaponry onto a bunker buddy frame. This one features a configuration suited for small arms: three light mounts and an auxiliary mount.",
+    "weight": "250 g",
+    "volume": "150 ml",
+    "price": 70000,
+    "price_postapoc": 800,
+    "install_time": "10 m",
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "red",
+    "location": "FOODCO base mount",
+    "mod_targets": [ "gun" ],
+    "add_mod": [["auxiliary", 4]],
+    "flags": ["IRREMOVABLE"]
+  },
+    {
+        "id": "bbuddy_frame_blank_large",
+        "type": "TOOL",
+        "name":
+        {
+            "str": "large FOODCO bunker buddy frame"
+        },
+        "description": "A framework of proprietary brackets and mounting points that can be used to assemble a FOODCO-compatible primary weapon set. The instruction manual that came with this has a diagram showing how the brackets fit together with the pieces of a disassembled firearm (not included) and a pair of knitting needles (also not included).",
+        "weight": "600 g",
+        "volume": "386 ml",
+        "longest_side": "210 mm",
+        "price": 17500,
+        "price_postapoc": 100,
+        "to_hit": -1,
+        "bashing": 4,
+        "material":
+        [
+            "steel",
+            "plastic"
+        ],
+        "symbol": "(",
+        "color": "blue"
+    },
+    {
+        "id": "bbuddy_frame_blank_small",
+        "type": "TOOL",
+        "name":
+        {
+            "str": "small FOODCO bunker buddy frame"
+        },
+        "description": "A small bracket used in the assembly of FOODCO-compatible component- and auxiliary-sized weapon kits. While most kits require parts from a manufactured firearm to be functional, several lower-tech options can be made with more common materials.",
+        "weight": "300 g",
+        "volume": "175 ml",
+        "longest_side": "100 mm",
+        "price": 17500,
+        "price_postapoc": 100,
+        "to_hit": -1,
+        "bashing": 3,
+        "material":
+        [
+            "steel",
+            "plastic"
+        ],
+        "symbol": "(",
+        "color": "blue"
+    }
+]

@@ -1,0 +1,77 @@
+[
+{
+    "id": "manual_bbuddy",
+    "type": "BOOK",
+    "category": "manuals",
+    "name": { "str": "FOODCO bunker buddy instruction booklet" },
+    "description": "Instructions and diagrams for assembling a FOODCO bunker buddy... at least in theory. For some reason, every set of instructions is prefaced by pages and pages of what seems to be the author's life story.",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "price": 450,
+    "price_postapoc": 300,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "red",
+    "skill": "mechanics",
+    "required_level": 4,
+    "max_level": 4,
+    "intelligence": 6,
+    "time": "8 m",
+    "fun": -1
+  },
+  {
+    "id": "bbuddy_kit_box",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "FOODCO starter kit box", "str_pl":"FOODCO starter kit boxes" },
+    "description": "The packaging for a FOODCO bunker buddy starter kit.",
+    "weight": "400 g",
+    "volume": "3200 ml",
+    "longest_side": "75 cm",
+    "price": 0,
+    "price_postapoc": 0,
+    "to_hit": -1,
+    "material": [ "cardboard" ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "2900 ml",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "70 cm",
+        "rigid": true,
+        "moves": 100
+      }
+    ],
+    "symbol": ")",
+    "color": "red_white"
+  },
+  {
+    "id": "bbuddy_starter_kit",
+    "type": "item_group",
+    "subtype": "collection",
+    "container-item": "bbuddy_kit_box",
+    "items": [
+      { "item": "bbuddy_frame" },
+      { "item": "bbuddy_standard" },
+      { "item": "bbuddy_heavy" },
+      { "item": "bbuddy_pistol" },
+      { "item": "bbuddy_frame_blank_large" },
+      { "item": "bbuddy_frame_blank_small", "count": 3 },
+      { "item": "manual_bbuddy" }
+    ]
+  },
+  {
+  "id": "shoulder_strap",
+  "name": { "str": "shoulder strap" },
+  "type": "GUNMOD",
+  "copy-from":"shoulder_strap",
+  "mod_targets": [ "rifle", "shotgun", "smg", "crossbow", "launcher", "gun" ]
+  },
+  {
+  "id": "shoulder_strap_front",
+  "name": { "str": "shoulder strap (front)", "str_pl": "shoulder straps (front)" },
+  "type": "GUNMOD",
+  "copy-from":"shoulder_strap_front",
+  "mod_targets": [ "rifle", "shotgun", "smg", "crossbow", "launcher", "gun" ]
+  }
+]

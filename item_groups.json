@@ -1,0 +1,87 @@
+[
+    {
+        "id": "mischw",
+        "type": "item_group",
+        "subtype": "collection",
+        "copy-from": "mischw",
+        "extend":
+        {
+            "items":
+            [
+                { "distribution": [
+                	{"group": "bbuddy_starter_kit", "prob": 5}
+                ]
+            }
+            ]
+        }
+    },
+    {
+    "type": "item_group",
+    "id": "homeguns",
+    "subtype": "distribution",
+    "copy-from":"homeguns",
+    "extend":{
+    "entries": [ { "group": "bbuddy_starter_kit", "prob": 5 } ]
+	}
+  },
+  {
+    "type": "item_group",
+    "id": "allsporting",
+    "subtype": "distribution",
+    "copy-from":"allsporting",
+    "extend":{
+    "entries": [ { "group": "bbuddy_starter_kit", "prob": 5 } ]
+  }
+  },
+  {
+    "type": "item_group",
+    "id": "mansion_guns",
+    "subtype": "distribution",
+    "copy-from":"mansion_guns",
+    "extend":{
+    "entries": [ { "group": "bbuddy_starter_kit", "prob": 10 } ]
+	}
+  },
+  {
+    "type": "item_group",
+    "id": "SUS_gunstore_crate",
+    "subtype": "distribution",
+    "copy-from":"SUS_gunstore_crate",
+    "extend":{
+    "entries": [ { "group": "bbuddy_starter_kit", "prob": 5 } ]
+	}
+  }, 
+  {
+    "type": "item_group",
+    "id": "SUS_gunstore_looted_floor",
+    "subtype": "distribution",
+    "copy-from":"SUS_gunstore_looted_floor",
+    "extend":{
+    "entries": [ { "group": "bbuddy_starter_kit", "prob": 5 } ]
+	}
+  },
+  {
+    "type": "item_group",
+    "id": "shelter",
+    "copy-from":"shelter",
+    "extend":{
+    "items": [ { "group": "bbuddy_starter_kit", "prob": 5 } ]
+	}
+  },
+  {
+    "type": "item_group",
+    "id": "pawn",
+    "copy-from":"pawn",
+    "extend":{
+    "items": [ { "group": "bbuddy_starter_kit", "prob": 10 } ]
+	}
+  },
+  {
+    "type": "item_group",
+    "id": "mil_surplus",
+    "copy-from":"mil_surplus",
+    "extend":{
+    "items": [ { "group": "bbuddy_starter_kit", "prob": 10 } ]
+	}
+  }
+]

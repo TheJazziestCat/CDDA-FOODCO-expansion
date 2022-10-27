@@ -1,0 +1,62 @@
+[
+    {
+        "id": "bbuddy_full_burst",
+        "type": "GUNMOD",
+        "name":
+        {
+            "str": "FOODCO full burst set"
+        },
+        "description": "A triple-barrel, 12-gauage, FOODCO-compatible heavy weapon set capable of firing every chamber at once in an emergency. Or not in an emergency. I'm an item description, not a cop.",
+        "weight": "4500 g",
+        "volume": "2250 ml",
+        "price": 70000,
+        "price_postapoc": 800,
+        "install_time": "30 m",
+        "material":
+        [
+            "steel"
+        ],
+        "symbol": ":",
+        "color": "red",
+        "location": "heavy",
+        "mod_targets":
+        [
+            "gun"
+        ],
+        "gun_data":
+        {
+            "ammo": "shot",
+            "skill": "shotgun",
+            "dispersion": 475,
+            "durability": 8,
+            "clip_size": 3,
+            "modes": [ [ "DEFAULT", "(single)", 1 ], [ "AUTO", "(full burst)", 3 ] ]
+        },
+        "min_skills":
+        [
+            [
+                "weapon",
+                2
+            ],
+            [
+                "shotgun",
+                3
+            ],
+            [ "mechanics", 2 ]
+        ],
+        "flags":
+        [
+            "RELOAD_ONE"
+        ],
+        "pocket_data":
+        [
+            {
+                "pocket_type": "MAGAZINE",
+                "ammo_restriction":
+                {
+                    "shot": 3
+                }
+            }
+        ]
+    }
+]

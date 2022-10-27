@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "foodco_bunkerbuddy",
+    "name": "FOODCO expansion",
+    "authors": [ "Jazzy" ],
+    "maintainers": [ "Jazzy" ],
+    "description": "Adds a number of new, still slightly impractical FOODCO innovations.",
+    "category": "content",
+    "obsolete": false,
+    "dependencies": [ "dda" ]
+  }
+]
