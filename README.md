@@ -59,11 +59,15 @@ Tazer accessory - electricity - auxiliary mount
 
 ## Not yet implemented
 
+FOODCO bunker buddy exotic configuration frame
+
 FOODCO Artillery set - 40x46mm grenade
 
 FOODCO Ordnance set - homebrew rocket
 
 FOODCO Salamander set - flamethrower
+
+FOODCO Agincourt set - longbow
 
 FOODCO Superheavy DMR set - .50 BMG and .700 Nitro Express
 
