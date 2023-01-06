@@ -21,15 +21,15 @@ This mod is very new and very incomplete. Leave your suggestions for new weapons
 
 ## Manifest
 
-FOODCO Heavy DMR configuration - .30-06 - main mount
+FOODCO Heavy DMR set - .30-06 - main mount
 
-FOODCO Medium DMR configuration - .308 - main mount
+FOODCO Medium DMR set - .308 - main mount
 
-FOODCO Light DMR configuration - 7.62x54mmR - main mount
+FOODCO Light DMR set - 7.62x54mmR - main mount
 
-FOODCO Heavy NATO configuration - 7.62x39mm - main mount
+FOODCO Heavy NATO set - 7.62x39mm - main mount
 
-FOODCO Light NATO configuration - .223 - main mount
+FOODCO Light NATO set - .223 - main mount
 
 FOODCO Full Burst set - triple-barrel shotgun with full burst option - heavy mount
 
@@ -59,13 +59,13 @@ Tazer accessory - electricity - auxiliary mount
 
 ## Not yet implemented
 
-FOODCO Artillery configuration - 40x46mm grenade
+FOODCO Artillery set - 40x46mm grenade
 
-FOODCO Ordnance configuration - homebrew rocket
+FOODCO Ordnance set - homebrew rocket
 
-FOODCO Salamander configuration - flamethrower
+FOODCO Salamander set - flamethrower
 
-FOODCO Superheavy DMR configuration - .50 BMG and .700 Nitro Express
+FOODCO Superheavy DMR set - .50 BMG and .700 Nitro Express
 
 FOODCO demolition set - ferromagnetic railgun
 
