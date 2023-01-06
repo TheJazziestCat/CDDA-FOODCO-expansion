@@ -79,7 +79,7 @@
     "id": "bbuddy_pistol",
     "type": "GUNMOD",
     "name": { "str": "FOODCO bunker buddy pistol-configuration frame" },
-    "description": "A set of brackets used to mount FOODCO-compatible weaponry onto a bunker buddy frame. This one features a configuration suited for small arms: three light mounts and an auxiliary mount.",
+    "description": "A set of brackets used to mount FOODCO-compatible weaponry onto a bunker buddy frame. This one features a configuration suited for small arms: a straightforward set of four auxiliary mounts.",
     "weight": "250 g",
     "volume": "150 ml",
     "price": 70000,
