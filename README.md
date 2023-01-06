@@ -15,17 +15,17 @@ To get started with your FOODCO bunker buddy, pick one of the configuration fram
 
 Once you've installed that, you have a FOODCO bunker buddy ready to accept several FOODCO gun mods (in this case, "mod" stands for "module" or "modular component" rather than "modification"). FOODCO mods can be swapped out freely just like (most) regular gun mods, but you'll have to craft them yourself. Fortunately, that's pretty straightforward: Most of them require a large or small FOODCO frame, a gun, some tools, and occasionally a pair of knitting needles, and instructions for all of them can be found in the instruction manual (included).
 
-## Your Gun Here
+## Your gun here
 
-This mod is very new and very incomplete. Leave your suggestions for new weapons/mods/attachments/recipes/lore and I'll see what I can do! Of particular note is the gun data on the weapons themselves
+This mod is very new and very incomplete. Leave your suggestions for new weapons/mods/attachments/recipes/lore and I'll see what I can do! Of particular note is the gun data on the weapons themselves—I don't really know what I'm doing there, so feel free to weigh in.
 
 ## Manifest
 
 FOODCO Heavy DMR configuration - .30-06 - main mount
 
-FOODCO Medium DMR configuration - 7.62x54mmR - main mount
+FOODCO Medium DMR configuration - .308 - main mount
 
-FOODCO Light DMR configuration - .308 - main mount
+FOODCO Light DMR configuration - 7.62x54mmR - main mount
 
 FOODCO Heavy NATO configuration - 7.62x39mm - main mount
 
