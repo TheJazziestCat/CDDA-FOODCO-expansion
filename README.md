@@ -69,6 +69,8 @@ FOODCO Salamander set - flamethrower
 
 FOODCO Agincourt set - longbow
 
+FOODCO Scorpion set - bolts
+
 FOODCO Superheavy DMR set - .50 BMG and .700 Nitro Express
 
 FOODCO demolition set - ferromagnetic railgun
