@@ -19,6 +19,13 @@
         "symbol": ":",
         "color": "red",
         "location": "heavy",
+        "qualities":
+        [
+            [
+                "KNIT",
+                1
+            ]
+        ],
         "mod_targets":
         [
             "gun"
