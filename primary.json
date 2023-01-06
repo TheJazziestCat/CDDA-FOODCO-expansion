@@ -15,8 +15,14 @@
     "symbol": "(",
     "color": "green",
     "location": "main",
+    "qualities":
+        [
+            [
+                "KNIT",
+                1
+            ]
+        ],
     "mod_targets": [ "gun" ],
-    "add_mod": [ [ "component mount", 2 ] ],
     "gun_data": {
       "ammo": ["3006"],
       "skill": "rifle",
@@ -45,8 +51,14 @@
     "symbol": "(",
     "color": "green",
     "location": "main",
+    "qualities":
+        [
+            [
+                "KNIT",
+                1
+            ]
+        ],
     "mod_targets": [ "gun" ],
-    "add_mod": [ [ "component mount", 2 ] ],
     "gun_data": {
       "ammo": ["762R"],
       "skill": "rifle",
@@ -75,7 +87,13 @@
     "symbol": "(",
     "color": "green",
     "location": "main",
-    "add_mod": [ [ "component mount", 2 ] ],
+    "qualities":
+        [
+            [
+                "KNIT",
+                1
+            ]
+        ],
     "mod_targets": [ "gun" ],
     "gun_data": {
       "ammo": ["308"],
@@ -105,7 +123,13 @@
     "symbol": "(",
     "color": "light_red",
     "location": "main",
-    "add_mod": [ [ "component mount", 2 ] ],
+    "qualities":
+        [
+            [
+                "KNIT",
+                1
+            ]
+        ],
     "mod_targets": [ "gun" ],
     "gun_data": {
       "ammo": ["223"],
@@ -153,7 +177,13 @@
     "symbol": "(",
     "color": "red",
     "location": "main",
-    "add_mod": [ [ "component mount", 2 ] ],
+    "qualities":
+        [
+            [
+                "KNIT",
+                1
+            ]
+        ],
     "mod_targets": [ "gun" ],
     "gun_data": {
       "ammo": ["762"],
