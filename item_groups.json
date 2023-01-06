@@ -1,21 +1,5 @@
 [
-    {
-        "id": "mischw",
-        "type": "item_group",
-        "subtype": "collection",
-        "copy-from": "mischw",
-        "extend":
-        {
-            "items":
-            [
-                { "distribution": [
-                	{"group": "bbuddy_starter_kit", "prob": 5}
-                ]
-            }
-            ]
-        }
-    },
-    {
+  {
     "type": "item_group",
     "id": "homeguns",
     "subtype": "distribution",
